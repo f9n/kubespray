@@ -1,6 +1,7 @@
 ---
 # Please see roles/container-engine/containerd/defaults/main.yml for more configuration options
 
+# containerd_root: "/var/lib/containerd"
 # containerd_default_runtime: "runc"
 # containerd_snapshotter: "native"
 

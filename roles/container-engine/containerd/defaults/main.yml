@@ -1,5 +1,7 @@
 ---
 
+containerd_root: "/var/lib/containerd"
+
 containerd_default_runtime: "runc"
 # containerd_snapshotter: "native"
 

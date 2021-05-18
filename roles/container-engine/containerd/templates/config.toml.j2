@@ -1,5 +1,7 @@
 version = 2
 
+root = "{{ containerd_root }}"
+
 [grpc]
   max_recv_message_size = {{ containerd_grpc_max_recv_message_size | default(16777216) }}
   max_send_message_size = {{ containerd_grpc_max_send_message_size | default(16777216) }}
